@@ -9,7 +9,7 @@ detoxCircus.getEnv().addEventsListener(assignReporter);
 detoxCircus.getEnv().addEventsListener(specReporter);
 
 // Set the default timeout
-jest.setTimeout(130000);
+jest.setTimeout(13000);
 
 beforeAll(async () => {
   await detox.init(config);
